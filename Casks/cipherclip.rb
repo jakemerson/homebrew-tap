@@ -1,11 +1,13 @@
 cask "cipherclip" do
-  version "1.0.9"
-  sha256 "878f71f27eeff792f150887be54b55569b10e0281bea1cf1d0f3c95d8deda467"
+  version "1.0.10"
+  sha256 "d63393463f3b9513a4fcfa45fef3953f8efba88b2f0a22895de5a358515069c9"
 
   url "https://github.com/jakemerson/homebrew-tap/releases/download/v#{version}/CipherClip-#{version}-mac.zip"
   name "CipherClip"
   desc "Gerenciador de área de transferência criptografado (AES-256) com anti-senhas e Touch ID"
   homepage "https://jakemerson.github.io/desafio-12x12/cipherclip/"
+
+  depends_on arch: :arm64
 
   app "CipherClip.app"
 
