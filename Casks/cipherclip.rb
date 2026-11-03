@@ -1,6 +1,6 @@
 cask "cipherclip" do
-  version "1.0.15"
-  sha256 "b9e0887db12a4edcd77eafd9b57178d596275e907730d21c66bbd11f4629d353"
+  version "1.0.16"
+  sha256 "727d3a0ed0e9ad20e20a03444858be134aa252ee03364c875408dbed1b815854"
 
   url "https://github.com/jakemerson/homebrew-tap/releases/download/v#{version}/CipherClip-#{version}-mac.zip"
   name "CipherClip"
