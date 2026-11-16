@@ -8,6 +8,7 @@ cask "cipherclip" do
   homepage "https://jakemerson.github.io/desafio-12x12/cipherclip/"
 
   depends_on arch: :arm64
+  depends_on macos: :ventura
 
   app "CipherClip.app"
 
